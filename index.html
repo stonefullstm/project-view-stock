@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Cotação Diária B3</title>
+</head>
+
+<body>
+  <h1>Cotação Diária</h1>
+  <!-- <ul></ul> -->
+  <div id="entrada">
+    <label for="ticker">Informe o ticker da ação: </label>
+    <input type="text" name="ticker" id="ticker">
+    <button id="botao">Consultar</button>
+    <button id="favoritar">Favoritar</button>
+  </div>
+  <div id="dados_acao">
+    <div id="favoritos">
+      <p></p>
+      <p id="titulo">Favoritas</p>
+      <ul id="lista-favoritas" class="stock">
+      </ul>
+    </div>
+    <div id="tabela">
+      <div id="primeira_linha">
+        <ol class="header">
+          <li>Data</li>
+        </ol>
+        <ol class="header">
+          <li>Cotação</li>
+        </ol>
+      </div>
+      <div id="dados">
+        <ol id="data"></ol>
+        <ol id="cotacao"></ol>
+      </div>
+
+    </div>
+    <div id="grafico">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
