@@ -7,8 +7,8 @@ const mydata = {
   labels: labels,
   datasets: [{
     label: 'Cotação diária',
-    backgroundColor: 'rgb(89, 78, 54)',
-    borderColor: 'rgb(89, 78, 54)',
+    backgroundColor: 'rgb(47, 72, 88)',
+    borderColor: 'rgb(47, 72, 88)',
     data: [],
   }]
 };
