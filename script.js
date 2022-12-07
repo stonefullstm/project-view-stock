@@ -20,7 +20,7 @@ const config = {
 };
 
 const host = 'https://www.alphavantage.co';
-const timeSeriesFunction = 'TIME_SERIES_DAILY';
+const timeSeriesFunction = 'TIME_SERIES_DAILY_ADJUSTED';
 let symbol = 'PETR4.SA';
 const key = '41MBD6F6FRS2YTDL';
 
