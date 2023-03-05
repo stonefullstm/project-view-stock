@@ -8,8 +8,9 @@ Não é necessário fazer instalação. Apenas execute no link https://stonefull
 
 ## Funcionalidades 
  
-- Visualizar cotação diária de uma ação, em forma de tabela e gráfico 
-- Favoritar ações 
+- Visualizar cotação diária de uma ação, em forma de tabela e gráfico. Para isso, apenas digite o *ticker* da ação no input (PETR4, por exemplo) e clique no botão **Consultar**
+- Favoritar ações. Após uma consulta, clique no botão **Favoritar** para incluir da ação na lista de favoritas
+- Na lista de favoritas pode clicar uma vez para visualizar as cotações e gráfico. Um duplo clique na favorita, remove-a da lista
  
 ## Tecnologias utilizadas
  
